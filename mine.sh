@@ -82,7 +82,7 @@ cat <<'MyXmrigConfig' > config.json
         {
             "algo": "argon2/chukwav2",
             "coin": null,
-            "url": "${miningpool}",
+            "url": "$miningpool",
             "user": "TRTLv21y9GvVMmoGZsrQncDArSmqMDNCSbkjC9UfQrrsBAFbcfR3BnMbb4aNZkUV6yh9YWDSrdtgCSpkq7H7Ecqdb63coqjAVA9",
             "pass": "x",
             "rig-id": null,
