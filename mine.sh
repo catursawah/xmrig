@@ -13,8 +13,6 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.11.1/xmrig-6.11.1-linux
 cd xmrig-6.11.1
 rm config.json
 
-read -p "Enter mining pool: "  miningpool
-
 PS3='Choose your mining pool: '
 foods=("South East Asia Singapore" "North America Canada" "Central Europe Germany" "Quit")
 select fav in "${foods[@]}"; do
